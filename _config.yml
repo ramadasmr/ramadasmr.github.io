@@ -1,0 +1,43 @@
+title: Ramadas MR
+description: Portfolio Website
+url: https://ramadasmr.github.io/
+
+remote_theme: https://github.com/piazzai/cvless
+
+# site settings
+taglong: |
+  Site Reliability Engineer & Devops Advocate <br>
+  Opensource Enthusiast <br>
+  Linux Ninja & Cloud Hopper <br>
+
+cv: true
+
+# author settings
+author:
+  name: Ramadas MR
+  email: prem00kat@gmail.com
+photo: assets/images/profile.jpg
+
+# profile links
+profile:
+  linkedin: https://www.linkedin.com/in/ramadasmr
+  github: https://github.com/ramadasmr
+
+# build settings
+permalink: pretty
+exclude:
+  - LICENSE
+  - README.md
+  - Gemfile
+  - vendor/
+
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate-v2
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-remote-theme
+
+sass:
+  sourcemap: never
